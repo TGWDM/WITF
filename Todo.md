@@ -10,18 +10,18 @@
         - [x] Monday to Friday
         - [x] Have icons that show the number of things going off
       - [x] Monthly calender
-  - [ ] **Expiring**
+  - [x] **Expiring**
     - [x] A view with different sort options.
     - [x] Each item in the scroll view has: The date of expiry, the name of the food, and a option to add the item as a search option.
-    - [ ] Each item should be pressable, When pressed it should open a popup view which shows a picture from when the item was added, when it was added and when it expires.
+    - [x] Each item should be pressable, When pressed it should open a popup view which shows a picture from when the item was added, when it was added and when it expires.
   - [x] New Item
     - [x] A view to represent camera entry
     - [x] A button for taking the image
-  - [ ] Recipes
+  - [x] Recipes
     - [x] Each item should be contained in a scroll view.
     - [x] Each item has: the name of the recipe, and a short description of the dish.
-    - [ ] Each item should be pressable, When pressed it should open a popup view which shows a picture of the recipe. Cook time and how many expiring items that would be used.
-  - [ ] Profile
+    - [x] Each item should be pressable, When pressed it should open a popup view which shows a picture of the recipe. Cook time and how many expiring items that would be used.
+  - [x] Profile
     - [x] Build out the settings tabs.
 - [ ] Optional: Have the app look like a fridge.
 
