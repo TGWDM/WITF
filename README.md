@@ -18,12 +18,14 @@ This screen contains a scroll view displaying all of the user's added food entri
 
 ### New Item
 
+This screen contains a view area in which the user can add images of food items that they want to store in the app. Then planned functionality would be to user ocr methodologies to extract the expiry dates. If possible I'd also like to add in functionality of extracting data from barcodes where possible and using it to find the nutritional value of the fridge items being added.
+
 ### Recipes
 
 This screen is also a scroll view. It will use the items that have been scanned and aren't expired, in a search for recipes. Then display the found recipes with a image of recipe, the title and a brief description.
 
 ### Profile
-****
+
 This page is where all the settings for app will be displayed. Currently, the settings for the app are split into: account, appearance, notifications, storage and about. At the top of this page the user can set an image to attach to their account.
 
 ## Functionality

@@ -1,9 +1,10 @@
 # Todo
 
-## Design
+## UX Design (Penpot)
 
 - [ ] Build out the 5 screen in figma.
-  - [ ] **Home**
+  - Which to using penpot.
+  - [x] **Home**
     - [x] Show the number of food going off soon.
     - [x] Have a week overview that when pressed opens up to a full calender view.
       - [x] Week Overview
@@ -25,11 +26,16 @@
     - [x] Build out the settings tabs.
 - [ ] Optional: Have the app look like a fridge.
 
-## Logic
+## Development
+
+### Design
 
 - [ ] Home Screen
   - [ ] 1= yellow, 2=orange, 4= red maybe black as well.
   - [ ] Optional: Use the total to decide the colour of all the colours
+
+### Functionality
+
 - [ ] Expiring Screen
   - [ ] Sorts
     - [ ] Oldest/Newest
