@@ -23,7 +23,7 @@ This screen contains a scroll view displaying all of the user's added food entri
 This screen is also a scroll view. It will use the items that have been scanned and aren't expired, in a search for recipes. Then display the found recipes with a image of recipe, the title and a brief description.
 
 ### Profile
-
+****
 This page is where all the settings for app will be displayed. Currently, the settings for the app are split into: account, appearance, notifications, storage and about. At the top of this page the user can set an image to attach to their account.
 
 ## Functionality
