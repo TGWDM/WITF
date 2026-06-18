@@ -1,0 +1,12 @@
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# AI Assistant configuration files (if they reappear)
+.claude/
+CLAUDE.md
+AGENTS.md
+
+# Design files (Optional: keep if you want to track your .penpot file, remove if it's too large)
+# Design/
