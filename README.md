@@ -28,4 +28,6 @@ This screen is also a scroll view. It will use the items that have been scanned 
 
 This page is where all the settings for app will be displayed. Currently, the settings for the app are split into: account, appearance, notifications, storage and about. At the top of this page the user can set an image to attach to their account.
 
-## Functionality
+## Development
+
+use cd whats-in-the-fridge to access the expo project folder. then use npm run andriod/ios/web to emulate the app on different platforms.
