@@ -31,6 +31,8 @@
 ### Design
 
 - [ ] Home Screen
+  - [ ] Fix home screen so that the homeheader displays correctly
+    - [ ] Add padding, and correct sizing
   - [ ] 1= yellow, 2=orange, 4= red maybe black as well.
   - [ ] Optional: Use the total to decide the colour of all the colours
 
