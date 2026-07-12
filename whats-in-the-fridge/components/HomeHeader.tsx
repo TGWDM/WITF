@@ -1,15 +1,21 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, View, ViewStyle } from 'react-native'
 import {useTheme} from '@/hooks/useTheme';
 import React from 'react'
 
-const HomeHeader = () => {
-    const colours = useTheme();
-  return (
-    <View style={{backgroundColor: colours.mainBG }}>
-      <Text style={{color:colours.textColour }}>HomeHeader</Text>   
-    </View>
-  )
+// Define the props types for the HomeHeader component
+interface HomeHeaderProps {
+    children: React.ReactNode; // Any react node accepted
+    style?: ViewStyle;          
 }
+
+const HomeHeader = ({ children, style }: HomeHeaderProps) => {
+    const colours = useTheme();
+    return (
+        <View style={[styles.root, { backgroundColor: colours.itemBG }, style]}>
+            {children}
+        </View>
+    );
+};
 
 export default HomeHeader
 
