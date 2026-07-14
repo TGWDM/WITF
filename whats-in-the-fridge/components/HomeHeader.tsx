@@ -15,9 +15,6 @@ const HomeHeader = ({ children, style }: HomeHeaderProps) => {
         <Text style={[styles.headerText, { color: colours.textColour }]}>
           HomeHeader 
         </Text>
-        <View>
-            
-        </View>
         {children}
         </View>
     );
