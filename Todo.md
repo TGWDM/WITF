@@ -29,7 +29,7 @@
 ## Development
 
 ### Design
-
+- [ ] Decide between fontawesome and fluentui for the icons
 - [ ] Home Screen
   - [ ] Fix home screen so that the homeheader displays correctly
     - [ ] Add padding, and correct sizing
