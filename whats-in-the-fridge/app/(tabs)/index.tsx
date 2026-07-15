@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import {useTheme} from '@/hooks/useTheme';
-import HomeHeader from '@/components/HomeHeader';
-import HomeWeekView from '@/components/homeWeekView';
+import HomeHeader from '@/components/home_screen/HomeHeader';
+import HomeWeekView from '@/components/home_screen/homeWeekView';
 
 
 
@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     display: 'flex',
     flex:0,
-    paddingTop: 180
+    paddingTop: 180,
+    gap: 250
   }
 });
