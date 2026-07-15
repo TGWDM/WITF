@@ -1,16 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
-import {Iconify}  from 'react-native-iconify'
+import { NumberCircle128Regular } from '@fluentui/react-native-icons'
 
-const DayColumns = () => {
+
+const DayColumn = () => {
   return (
     <View style={[styles.root]}>
       <Text>M</Text>  
-      <Iconify icon="bi:2-circle" size={24} color="#000" />
+      <NumberCircle128Regular width={20} height={20} color={'#000000'} />
     </View>
   )
 }
 
-export default DayColumns
+export default DayColumn
 
 const styles = StyleSheet.create({
   root:{

@@ -1,6 +1,6 @@
 import { StyleSheet, View, ViewStyle } from 'react-native'
 import {useTheme} from '@/hooks/useTheme';
-import DayColumns from './DayColumn'
+import DayColumn from './DayColumn'
 
 // Define the props types for the HomeHeader component
 interface HomeWeekViewProps {
@@ -12,7 +12,7 @@ const HomeWeekView = (style : HomeWeekViewProps) => {
   return (
     <View style={[styles.root, { backgroundColor: colours.itemBG}]}>
         <View style={styles.weekView}>
-            <DayColumns />
+            <DayColumn />
         </View>
     </View>
   )
